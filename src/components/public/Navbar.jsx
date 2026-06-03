@@ -10,7 +10,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 left-0 right-0 z-50 mx-auto container px-4">
+    <nav className="sticky top-3 left-0 right-0 z-50 mx-auto container px-4">
       {/* মেইন নেভবার কন্টেইনার (ক্যাপসুল ডিজাইন) */}
       <div className="flex h-16 items-center justify-between rounded-2xl border border-white/[0.06] bg-[#121212]/80 px-6 shadow-2xl backdrop-blur-xl">
         {/* লোগো সেকশন */}

@@ -5,7 +5,7 @@ import { FaPinterestP } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#030303] text-zinc-400 py-16 px-6 border-t border-white/[0.03]">
+    <footer className="w-full bg-[#030303] text-zinc-400 py-16 mt-10 px-6 border-t border-white/[0.03]">
       <div className="mx-auto container ">
         {/* উপরের মেইন গ্রিড সেকশন */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-6 pb-16">
