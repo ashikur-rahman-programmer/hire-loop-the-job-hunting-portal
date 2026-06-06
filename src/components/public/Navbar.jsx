@@ -28,7 +28,7 @@ export default function Navbar() {
         <ul className="hidden items-center gap-8 md:flex">
           <li>
             <Link
-              href="#"
+              href="/jobs"
               className="text-sm font-medium text-zinc-400 transition-colors hover:text-white"
             >
               Browse Jobs
@@ -36,7 +36,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="#"
+              href="/company"
               className="text-sm font-medium text-zinc-400 transition-colors hover:text-white"
             >
               Company
@@ -44,7 +44,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="#"
+              href="/pricing"
               className="text-sm font-medium text-zinc-400 transition-colors hover:text-white"
             >
               Pricing
@@ -58,7 +58,7 @@ export default function Navbar() {
           <div className="h-5 w-[1px] bg-zinc-800" />
 
           <Link
-            href="#"
+            href="/signin"
             className="text-sm font-medium text-[#6366f1] transition-opacity hover:opacity-80"
           >
             Sign In
@@ -92,7 +92,7 @@ export default function Navbar() {
           <ul className="flex flex-col gap-4">
             <li>
               <Link
-                href="#"
+                href="/jobs"
                 className="block w-full text-base font-medium text-zinc-400 hover:text-white"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -101,7 +101,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="#"
+                href="/company"
                 className="block w-full text-base font-medium text-zinc-400 hover:text-white"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -110,7 +110,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="#"
+                href="/pricing"
                 className="block w-full text-base font-medium text-zinc-400 hover:text-white"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -120,7 +120,7 @@ export default function Navbar() {
             <div className="my-2 h-[1px] w-full bg-zinc-800" />
             <li>
               <Link
-                href="#"
+                href="/signin"
                 className="block w-full text-base font-medium text-[#6366f1]"
                 onClick={() => setIsMenuOpen(false)}
               >
